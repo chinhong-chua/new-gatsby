@@ -12,9 +12,12 @@ module.exports = {
       options: {
         name: `blog`,
         path: `${__dirname}/blog`,
+        // path: `${__dirname}/src/pages/blog`,
+
       }
     },
     "gatsby-plugin-mdx",
+    "gatsby-transformer-sharp",
     
   ],
 };
